@@ -1,3 +1,4 @@
 #!/bin/sh
 pwd
-./node_modules/mocha/bin/mocha ./test/test.js
+cd ..
+./node_modules/.bin/mocha ./test/test.js
